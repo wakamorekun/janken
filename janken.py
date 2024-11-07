@@ -1,3 +1,6 @@
+import random
+cpu = random.randint(1, 3)
+
 you_win = 0
 cpu_win = 0
 while you_win + cpu_win < 3:
