@@ -1,9 +1,9 @@
 import random
-cpu = random.randint(1, 3)
 
 you_win = 0
 cpu_win = 0
 while you_win + cpu_win < 3:
+  cpu = random.randint(1, 3)
   janken = int(input(f"1.グー\n2.チョキ\n3.パー\nあなたの手を選択してください。>"))
   print(f"あなたの手：{janken}\nコンピュータの手：{cpu}")
 
